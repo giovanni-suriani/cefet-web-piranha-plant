@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || Utility Classes */
+.notext-decoration {
+  text-decoration: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-div {
+  /* classe ruim so para lembrar como que faz */
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 10% 10%;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  color: limegreen;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  color: limegreen;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  border: 8px solid limegreen;
+}
+
+table {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+th {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+}
+
+.td-header {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+}
+
+.td {
+  background-color: lightgrey;
+  padding: 0 0 0 10px;
+}
+
+.citation-text {
+  margin: 0 60px;
+  font-style: italic;
+}
+
+.box-text {
+  border: 3px solid limegreen; /* Optional: Add a border to the box */
+  padding: 10px; /* Optional: Add padding inside the box */
+  max-width: 100%; /* Optional: Limit the width of the box */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
