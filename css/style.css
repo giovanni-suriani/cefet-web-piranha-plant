@@ -58,23 +58,34 @@ table {
   width: 600px;
   text-align: center;
   margin: 0 auto;
+  border-collapse: collapse;
+  table-layout: fixed;
 }
 
 th {
   background-color: grey;
   color: white;
   padding: 10px;
+  border: 3px solid black;
 }
+
+
+tr {
+  background-color: lightgrey;
+}
+
 
 .td-header {
   background-color: grey;
   color: white;
   padding: 10px;
+  border: 3px solid black;
 }
 
 .td {
   background-color: lightgrey;
   padding: 0 0 0 10px;
+  border: 3px solid black;
 }
 
 .citation-text {
